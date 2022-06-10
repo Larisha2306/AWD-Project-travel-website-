@@ -1,0 +1,89 @@
+<html>
+<head><title>
+    Tourism Website
+</title>
+<link rel="stylesheet" type="text/css" href="stylee.css" />
+</head>
+
+<body>
+<section class="showcase">
+    <header>
+      <h2 class="logo">Travel.com</h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="explore.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>Never Stop  </h2> 
+      <h3>Exploring The World</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p>
+      <a href="reg form.html">Login/Signup</a>
+    </div>
+    <ul class="social">
+      <li><a href="www.facebook.com"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="www.twitter.com"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="www.instagram.com"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="book.html">Book</a></li>
+      <li><a href="destinations.html">Destinations</a></li>
+      <li><a href="packages.html">Packages</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="galleryreviews.html">Gallery</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+    </ul>
+  </div>
+  <section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>One stop solution for all your travel needs.</div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span> Larisha Group-P </span> | all rights reserved! </h1>
+
+</section>
+
+
+  <script>
+const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+  </script>
+</body>
+</html>
